@@ -1,1 +1,6 @@
-
+clear x;
+branch 4;
+addval x 5;
+addval x 4;
+addval x 10;
+subval x 10;

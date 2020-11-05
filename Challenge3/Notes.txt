@@ -1,0 +1,47 @@
+This is a 1 hour bodge xD
+
+Tabs have been replaced with "-" since Java is incapable of counting the number 
+of tabs that a line is indented by.
+
+Simple Operations
+-----------------
+
+int x = 0;          clear x;            Declare a variable / Assign 0 to variable.
+
+x++;                incr x;             Increment a variable.
+x--;                decr x;             Decrement a variable. 
+
+x = y;              set x y;            Assigns a variable the value of anoter varaible.
+x = 5;              setval x 5;
+
+x += y;             add x y;            Adds the value of a variable to another variable.
+x += 5;             addval x 5;
+x = y + z;          addeq x y x;[not done]        Assigns a variable the sum value of two other variables. [not done]
+
+x -= y;             sub x y;
+x -= 5;             subval x 5;
+x = y - z;          subeq x y z; [not done]
+
+x *= y;             mlt x y;
+x *= 5;             mltval x 5;
+x = y * z;          mlteq x y z; [not done]
+
+x /= y;             div x y;
+x /= 5;             divval x 5;
+x = y / z;          diveq x y z; [not done]
+
+Loops
+-----
+
+while (x != 0)      while x not 0 do;               Loop until x equals 0.
+{                   -{code}
+}                   end;
+
+Branching Statements
+--------------------
+
+n/a                 branch :a                       Branch to line with :a label.
+n/a                 bequal :a x y;                  Branch to line with :a label if x equals y.
+n/a                 bequalval :a x 5; [not done]    Branch to line with :a lable if x equals a value.  
+n/a                 bless 8 x y;                    Branch to line 8 if x is less than y.
+n/a                 blessval 8 x 5; [not done]      Branch to line 8 if x is less than a value.
