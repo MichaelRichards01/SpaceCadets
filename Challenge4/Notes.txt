@@ -1,0 +1,2 @@
+Setup Server:           java Server <host port>
+Connect to Server :     java Client <host address> <host port> <username>
